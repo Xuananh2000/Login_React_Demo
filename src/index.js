@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import login_page from "./view/pages/auth/login/login";
+import Logigitn from './components/pages/Login';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 ReactDOM.render(
-    <login_page />,
-    document.getElementById('root')
+  <Login />,
+  document.getElementById('root')
 );
